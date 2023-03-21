@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+<script src="main.js"></script>
+    <title>Handy Book Of Soups</title>
+<style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 50%;
+  
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  
+
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+    <center>
+<h1>Handy Book Of Soups</h1>
+<div class="gallery">
+  <a target="_blank"  onclick="pageOne()" >
+    <img src="chicken_noodle_soup.jpg"  width="600" height="400">
+  </a>
+  <button id="chicken_noodle_soup_btn" onclick="pageOne()" >Chicken Noodle Soup</button>
+</div>
+
+<div class="gallery">
+  <a target="_blank"  >
+    <img src="sweet_corn_soup.jpg"  width="600" height="400">
+  </a>
+  <button id="sweet_corn_soup_btn" onclick="pageTwo()" >Sweet Corn Soup</button>
+</div>
+
+<div class="gallery">
+  <a target="_blank"  >
+    <img src="manchow_soup.jpg"width="600" height="400">
+  </a>
+  <button id="manchow_soup_btn" onclick="pageThree()" >Manchow Soup</button>
+</div>
+
+</center>
+</body>
+</html>
